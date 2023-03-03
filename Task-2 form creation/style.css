@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: lightgray;
+  }
+  td {
+    background-color:whitesmoke;
+  }
+html,body{
+   margin: 5px;
+   background-color: whitesmoke;
+   margin-left: 20px;
+}  
+#address{
+    width:200px;
+    height: 25px;
+    margin-left: 50px;
+}
+#first-name{
+    margin-left: 30px;
+    width:200px;
+}
+#last-name{
+    margin-left: 31.5px;
+    width:200px;
+}
+#email{
+    margin-left: 62.5px;
+    width:200px;
+}
+#state{
+    margin-left: 70px;
+    width:200px;
+}
+#country{
+    margin-left: 50px;
+    width:200px;
+}
+#pincode{
+    width:200px;
+    height: 25px;
+    margin-left: 31.5px;
+}
+#submit{
+    background-color:lightblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0;
+}

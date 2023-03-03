@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Manipulation with forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+  </head>
+  <body>
+    <h1 id="title">Fill out the form below :-</h1>
+    <p id="description"> Thank you!! for your participation and valuable input.</p>
+    <div class="form-group">
+      <form id="form">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" placeholder="Enter your first-name"required><br><br/>
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" placeholder="Enter your last-name" required><br><br/>
+
+      <label for="email">Email:</label>
+      <input type="email"  id="email" name="email" placeholder="Enter your email address" required><br><br/>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" placeholder="Enter your address" required></textarea><br><br/>
+
+      <label for="pincode">PINCODE:</label>
+      <textarea type="number" id="pincode" name="number" placeholder="Enter the Number" required></textarea><br><br/>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" placeholder="Enter your state" required><br><br/>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country"  placeholder="Enter your country" required><br><br/>
+
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">--Please select--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for="food-items">Food Items:</label><br><br/>
+      <input type="radio" id="pizza" name="food-items" value="pizza">
+      <label for="pizza">Pizza</label>
+      <input type="radio" id="burger" name="food-items" value="burger">
+      <label for="burger">Burger</label>
+      <input type="radio" id="Fresh-juice" name="food-items" value="Fresh-juice">
+      <label for="Fresh-juice">Fresh-juice</label>
+      <input type="radio" id="Popcorn" name="food-items" value="popcorn">
+      <label for="popcorn">Popcorn</label>
+      <input type="radio" id="Briyani" name="food-items" value="Briyani">
+      <label for="Briyani">Briyani</label><br/><br/>
+
+      
+      <input type="submit" id="submit" class="btn" value="Submit"><br/>
+    </form>
+  </div>
+   
+    <div id="table-container" ></div>
+
+    
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
